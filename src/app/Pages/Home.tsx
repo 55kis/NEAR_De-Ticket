@@ -2,6 +2,7 @@
 // src/app/components/Home.tsx
 
 import React, { useState } from "react";
+import Link from 'next/link';
 
 const Home = () => {
     const [activeTab, setActiveTab] = useState<"signin" | "signup">("signin");
@@ -25,6 +26,7 @@ const Home = () => {
                 >
                     Sign Up
                 </button>
+
             </div>
 
             <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-md">
