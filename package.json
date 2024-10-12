@@ -1,0 +1,17 @@
+{
+  "name": "near_de-ticket",
+  "version": "1.0.0",
+  "description": "NEAR-Native Cross-Chain Wallet with Ticket Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.13.3",
+    "hardhat": "^2.22.13"
+  }
+}
